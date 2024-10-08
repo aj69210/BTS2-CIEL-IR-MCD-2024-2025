@@ -37,17 +37,17 @@ description
 5. Établissement des relations
 
 -Quelles sont les connexions logiques entre l'entité principale (pokemon) et les entités secondaires ?
-Ce sont des connexions 1..N:1..N 
+Ce sont des connexions 1..N:1..N pour les couleurs et les types et 1:1..N pour l'habitat
 
 -Comment exprimeriez-vous ces connexions en termes de relations dans un MCD ?
-Le pokemon peut avoir un ou plusieurs types,couleurs,habitats et en retour ces caractéristiques peuvent appartenir à un ou plusieurs pokemon
+Le pokemon peut avoir un ou plusieurs types,couleurs mais un seul habitat et en retour ces caractéristiques peuvent appartenir à un ou plusieurs pokemon
 
 6. Détermination des cardinalités
 
 -Pour chaque relation que vous avez identifiée, réfléchissez :
 
 -Un pokemon peut-il avoir plusieurs instances de cette caractéristique ?
-oui
+oui pour le type et la couleur mais non pour l'habitat
 
 -Cette caractéristique peut-elle être partagée par plusieurs pokemons ?
 oui
